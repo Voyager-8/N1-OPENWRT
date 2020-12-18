@@ -18,4 +18,6 @@ rm -rf ./package/lean/luci-theme-argon
 #
 #运行 ./scripts/feeds install -a 时候报错形如“WARNING: Makefile 'package/lean/amule/Makefile' has a dependency on 'libpng', which does not exist”
 #重新./scripts/feeds install -a
+rm -rf ./feeds
+./scripts/feeds update -a
 ./scripts/feeds install -a
