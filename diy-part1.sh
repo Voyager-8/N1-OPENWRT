@@ -17,7 +17,7 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #删除lean内的luci-theme-argon
-rm -rf luci-theme-argon
+#rm -rf luci-theme-argon
 
 #添加luci_theme_argon主题
-git clone https://github.com/jerrykuku/luci-theme-argon.git
+#git clone https://github.com/jerrykuku/luci-theme-argon.git
