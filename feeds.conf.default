@@ -12,4 +12,3 @@ src-git helloworld https://github.com/fw876/helloworld
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
 src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-src-git 18.06 https://github.com/jerrykuku/luci-theme-argon.git
