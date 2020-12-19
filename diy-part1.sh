@@ -20,4 +20,4 @@
 #rm -rf luci-theme-argon
 
 #添加luci_theme_argon主题
-git clone https://github.com/jerrykuku/luci-theme-argon.git
+#git clone https://github.com/jerrykuku/luci-theme-argon.git
