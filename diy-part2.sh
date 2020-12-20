@@ -24,6 +24,8 @@ sed -i 's/192.168.1.1/10.10.10.50/g' package/base-files/files/bin/config_generat
 rm -rf ./package/lean/luci-theme-argon
 #添加luci_theme_argon主题
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+#./scripts/feeds update infinityfreedom
+#./scripts/feeds install luci-theme-infinityfreedom
 ##返回上两级目录(openwrt,lean目录)
 #cd ../..
 #readd cpufreq for aarch64
