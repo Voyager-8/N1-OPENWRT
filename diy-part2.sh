@@ -27,9 +27,9 @@ sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci
 #删除Lean/packages/lean下的luci-theme-argon
 cd ./package/lean && rm -rf luci-theme-argon
 #添加luci_theme_argon主题
-cd ./package/lean && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 #添加luci-app-vssr（helloworld修改版）
-cd ./package/lean
+#cd ./package/lean
 #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/lua-maxminddb.git
 #主程序
@@ -40,13 +40,13 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 #返回上两级目录(openwrt,lean目录)
 #cd ../..
 #关机
-cd ./package/lean 
+#cd ./package/lean 
 git clone https://github.com/esirplayground/luci-app-poweroff.git
 #
 #自动关机
-cd ./package/lean
+#cd ./package/lean
 git clone https://github.com/sirpdboy/luci-app-autopoweroff.git
 #
 #常用软件包
-cd ./package/lean
+#cd ./package/lean
 git clone https://github.com/liuran001/openwrt-packages package
