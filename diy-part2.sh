@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/10.10.10.50/g' package/base-files/files/bin/config_generate
 #
 #readd cpufreq for aarch64
-sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci-app-cpufreq/Makefile
+#sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci-app-cpufreq/Makefile
 #
 #运行 ./scripts/feeds install -a 时候报错形如“WARNING: Makefile 'package/lean/amule/Makefile' has a dependency on 'libpng', which does not exist”
 #重新./scripts/feeds install -a
@@ -25,15 +25,15 @@ sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci
 #./scripts/feeds install -a
 #
 #删除Lean/packages/lean下的luci-theme-argon
-cd ./package/lean && rm -rf luci-theme-argon
+#cd ./package/lean && rm -rf luci-theme-argon
 #添加luci_theme_argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 #添加luci-app-vssr（helloworld修改版）
 #cd ./package/lean
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git
+#git clone https://github.com/jerrykuku/lua-maxminddb.git
 #主程序
-git clone https://github.com/jerrykuku/luci-app-vssr.git
+#git clone https://github.com/jerrykuku/luci-app-vssr.git
 #
 #./scripts/feeds update infinityfreedom
 #./scripts/feeds install luci-theme-infinityfreedom
@@ -41,12 +41,12 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 #cd ../..
 #关机
 #cd ./package/lean 
-git clone https://github.com/esirplayground/luci-app-poweroff.git
+#git clone https://github.com/esirplayground/luci-app-poweroff.git
 #
 #自动关机
 #cd ./package/lean
-git clone https://github.com/sirpdboy/luci-app-autopoweroff.git
+#git clone https://github.com/sirpdboy/luci-app-autopoweroff.git
 #
 #常用软件包
 #cd ./package/lean
-git clone https://github.com/liuran001/openwrt-packages package
+#git clone https://github.com/liuran001/openwrt-packages package
