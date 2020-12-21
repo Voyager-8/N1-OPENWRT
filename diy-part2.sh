@@ -40,10 +40,13 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 #返回上两级目录(openwrt,lean目录)
 #cd ../..
 #关机
-cd ./package/lean && git clone https://github.com/esirplayground/luci-app-poweroff.git
+cd ./package/lean 
+git clone https://github.com/esirplayground/luci-app-poweroff.git
 #
 #自动关机
-cd ./package/lean && git clone https://github.com/sirpdboy/luci-app-autopoweroff.git
+cd ./package/lean
+git clone https://github.com/sirpdboy/luci-app-autopoweroff.git
 #
 #常用软件包
-cd ./package/lean && git clone https://github.com/liuran001/openwrt-packages package
+cd ./package/lean
+git clone https://github.com/liuran001/openwrt-packages package
