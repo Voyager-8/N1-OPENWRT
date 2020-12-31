@@ -25,15 +25,15 @@ sed -i 's/192.168.1.1/10.10.10.50/g' package/base-files/files/bin/config_generat
 #./scripts/feeds install -a
 #
 #删除Lean/packages/lean下的luci-theme-argon
-rm -rf package/lean/luci-theme-argon/
+#rm -rf package/lean/luci-theme-argon/
 #添加luci_theme_argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 #添加luci-app-vssr（helloworld修改版）
 #cd ./package/lean
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 #主程序
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/lua-maxminddb/luci-app-vssr
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/lua-maxminddb/luci-app-vssr
 #
 #./scripts/feeds update infinityfreedom
 #./scripts/feeds install luci-theme-infinityfreedom
@@ -41,11 +41,11 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/lua-maxmin
 #cd ../..
 #关机
 #cd ./package/lean 
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/lua-maxminddb/luci-app-poweroff
+#git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/lua-maxminddb/luci-app-poweroff
 #
 #自动关机
 #cd ./package/lean
-git clone https://github.com/sirpdboy/luci-app-autopoweroff.git package/lean/lua-maxminddb/luci-app-autopoweroff
+#git clone https://github.com/sirpdboy/luci-app-autopoweroff.git package/lean/lua-maxminddb/luci-app-autopoweroff
 #
 #常用软件包
 #cd ./package/lean
