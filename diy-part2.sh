@@ -50,6 +50,6 @@ sed -i 's/192.168.1.1/10.10.10.50/g' package/base-files/files/bin/config_generat
 #常用软件包
 #cd ./package/lean
 #git clone https://github.com/liuran001/openwrt-packages package
-git pull && ./scripts/feeds update -a
-./scripts/feeds install -a
-./scripts/feeds install -a
+#git pull && ./scripts/feeds update -a
+#./scripts/feeds install -a
+#./scripts/feeds install -a
